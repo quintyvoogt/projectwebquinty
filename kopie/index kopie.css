@@ -1,0 +1,345 @@
+ /*csslint order-alphabetical: false, box-model: false, outline-none: false, universal-selector:false, box-sizing:false, ids:false, qualified-headings:false, unique-headings:false, fallback-colors:false, */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    /*transition: all .5s;*/
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* css reset van sonja internetstandaarden 2015 */
+
+
+header{
+    display: flex;
+    width: 100%;
+    font-family: nexa light;
+    color: #00D66C;
+    background-color: white;
+}
+
+h1{
+    font-family: nexa bold;
+    font-size: 1.5em;
+    margin-top: 0.4em;
+}
+
+.icons{
+    height: 1.5em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    margin-left: 1.0em;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../Mooie-landschap-achtergronden-hd-landschappen-wallpapers-01.jpg);
+    position: absolute;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    font-family: nexa light;
+    color: #00D66C;
+    opacity: 0.8;
+    background-color: white;
+    padding: 0.5em;
+}
+
+select{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+margin: 1em;
+    height: 2em;
+    width: 18em;
+}
+
+.zoeken{
+    
+}
+
+.tekst{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+a.tekst:hover{
+    color: #2C2E85;
+}
+button:hover{
+    background-color: #2C2E85;
+}
+
+
+#boven{
+    background-color: white;
+}
+
+button{
+    border: none;
+    background-color: #E83E69;
+    color: white;
+    border-radius: 1em;
+    display: block;
+    margin: auto;
+    padding: 0.5em;
+    width: 40%;
+    font-size: 0.8em;
+}
+#boven button:hover{
+    width: 50%;
+    height: 3em;
+    -webkit-transform: rotate(180deg); 
+}
+
+button{
+    border: none;
+    background-color: #E83E69;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    width: 8em;
+    margin-top: auto;
+}
+
+.logo{
+    width: 5.5em;
+    height: 2.5em;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+h2{
+    font-family: nexa bold;
+    font-size: 1.4em;
+    color: #00D66C;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 1em;
+    padding: 1em;  
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+aside{
+    background-color: #00D66C;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: nexa bold;
+    color: white;
+    border-radius: 1em;
+    
+}
+
+p{
+    font-family: nexa light;
+    font-size: 0.9em;
+    padding-bottom: 1em;
+}
+
+.titels{
+    font-family: nexa light;
+    padding-bottom: 0em;
+    font-style: italic;
+}
+
+.leesverder{
+    font-family: nexa light;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: #E83E69;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    box-shadow: inset 0 0 0.3em grey;
+} 
+
+.leesverder:hover{
+    background-color: #2C2E85;
+    transition: background-color 0.5s;
+}
+
+@media screen and (max-width: 31em) {
+    .tekst{
+    display: none;
+    }
+}
+
+@media screen and (min-width: 31em) {
+    .icons{
+    display: none;
+    }
+}
+
+@media screen and (max-width: 31em){
+    article{
+        display: none;
+    }
+    section{
+        display: none;
+    }
+    #midden{
+        display: block;
+    }
+    aside{
+        margin: auto;
+        width: 15em;
+        height: 3em;
+    }
+}
+
+@media screen and (min-width: 42em){
+    article{
+        width: 15em;
+        height: 14em;
+    }
+}
+
+@media screen and (min-width: 55em){
+    article{
+      width: 12em;
+        height: 16em;
+      margin: inherit;
+      margin: 2em;
+    }
+}

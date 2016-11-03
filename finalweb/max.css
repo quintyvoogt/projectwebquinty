@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    margin: auto;
+}
+#een{
+    width: 500%;
+}
+
+#twee{
+    width: 200%;
+}
+
+#drie{
+    width: 100%;
+}
+
+@media screen and (max-width: 30em){
+    #twee{
+        display: none;
+    }
+    #drie{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 30em){
+    #een{
+        display: none;
+    }
+    #drie{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 45em){
+    #een{
+        display: none;
+    }
+    #twee{
+        display: none;
+    }
+    #drie{
+        display: flex;
+    }
+}
